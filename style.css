@@ -39,12 +39,33 @@
     align-items: center;
     background-color: #C6E4D6;
     justify-items: center;
+    border-radius: 15px;
 }
 
 .bnrtxt{
     width: 600px;
+    font-family:"Fira Sans", serif;
+}
+
+.bnrtxt h4{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.463);
 }
 
 .bnrtxt h1{
     font-size: 50px;
 }
+
+.bnrbtn{
+    margin: 20px;
+    padding: 10px 20px;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #006A50;
+    border-radius: 10px;
+    box-shadow: 5px 5px #006a505b;
+    border:none;
+}
+
+
