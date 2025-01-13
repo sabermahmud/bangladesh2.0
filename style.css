@@ -1,8 +1,13 @@
 *{
  margin: 0;
  padding: 0;
- background-color: ;   
+ font-family: "Fira Sans", serif; 
 }
+
+body{
+    background-color: #f1f1f3;
+}
+
 
 .navbar{
     display: flex;
@@ -68,4 +73,31 @@
     border:none;
 }
 
+.cardgroup{
+   display: flex;
+   margin: 15px 15px;
+   justify-content: center;
+}
+
+.card{
+    margin: 15px;
+    padding: 10px 10px;
+    width: 300px;
+    height: 250;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.card img, h4, p, button{
+    margin: 5px;
+    padding: 5px;
+}
+.card button{
+    background-color: aquamarine;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
 
