@@ -72,6 +72,9 @@ body{
     box-shadow: 5px 5px #006a505b;
     border:none;
 }
+.bnrbtn:hover{
+    background-color: #013a2c;
+}
 
 .cardgroup{
    display: flex;
@@ -81,23 +84,87 @@ body{
 
 .card{
     margin: 15px;
-    padding: 10px 10px;
+    padding: 20px 20px;
     width: 300px;
     height: 250;
     background-color: #ffffff;
     border-radius: 10px;
+    box-shadow: 2px 2px 20px lightgrey;
+}
+.card:hover{
+    width: 296px;
+    border: solid 2px rgb(254, 229, 0);
 }
 
 .card img, h4, p, button{
     margin: 5px;
     padding: 5px;
 }
-.card button{
-    background-color: aquamarine;
+
+#vcard1{
+    background-color: #548ff554;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 20px lightgrey;
+    border-radius:15px ;
+
+}
+
+#vcard1 button{
+    background-color: #548ff587;
     border: none;
     padding: 15px 25px;
     border-radius: 20px;
     font-size: 14px;
     font-weight: 400;
+}
+
+#vcard1 button:hover{
+    background-color: #548ff5;
+}
+
+#vcard2{
+    background-color: #09a15d3c;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 20px lightgrey;
+    border-radius:15px ;
+
+}
+
+#vcard2 button{
+    background-color: #09a15d8f;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#vcard2 button:hover{
+    background-color: #09A15C;
+}
+
+
+#vcard3{
+    background-color: #ffc4393a;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 20px lightgrey;
+    border-radius:15px ;
+
+}
+
+#vcard3 button{
+    background-color: #ffc439a2;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#vcard3 button:hover{
+    background-color: #FFC239;
 }
 
