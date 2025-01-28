@@ -168,3 +168,55 @@ body{
     background-color: #FFC239;
 }
 
+
+.rsection {
+    margin: 20px;
+}
+.rcard{
+    display: flex;
+    background-color: #ffffff;
+    margin: 15px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.rcard-img img{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.rcard-info{
+    padding-left: 10px;
+}
+
+.rcard-info button{
+    color: #00000069;
+    display: flex;
+    align-items: center;
+    background-color: #09a15d8f;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+
+.rcard-info button:hover{
+    background-color: #09a15d;
+    color: #ffffff;
+}
+
+
+.rcard-info button h3{
+    padding-right: 5px;
+}
+
+
+
+
+.ptime{
+    display: flex;
+}
