@@ -1,7 +1,8 @@
 *{
  margin: 0;
  padding: 0;
- font-family: "Fira Sans", serif; 
+ font-family: "Fira Sans", serif;
+ 
 }
 
 body{
@@ -219,4 +220,59 @@ body{
 
 .ptime{
     display: flex;
+}
+
+
+.dsection{
+    margin: 20px;
+    padding: 10px;
+    justify-items: center;
+}
+
+.dsection input{
+    display: block;
+    width: 100%;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #C6E4D6 ;
+    border-radius: 10px;
+}
+
+.amcardgr{
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.amcard{
+    border: 2px solid #C6E4D6;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin:10px 25px;
+}
+
+.amcard:hover{
+    background-color:#C6E4D6 ;
+}
+
+
+#selected{
+    background-color:#C6E4D6 ;
+}
+
+.dsection button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 15px;
+    color:  #09a15d;
+    border-radius: 15px;
+    border: 2px solid #09a15d;;
+}
+
+.dsection button:hover{
+    background-color: #09a15d;
+    color: #ffffff;
 }
